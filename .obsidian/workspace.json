@@ -1,0 +1,168 @@
+{
+  "main": {
+    "id": "18968f8eefa6f516",
+    "type": "split",
+    "children": [
+      {
+        "id": "1fdf7800b95c62c8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2153b0bdad0af8af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2024-02-26.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "243347e34294d970",
+    "type": "split",
+    "children": [
+      {
+        "id": "115b6984556fdda4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1400b3e3d40bd94b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bd2f01e2d9fc4f4a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cad1d1d187fcee0f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c7e71da264764e8f",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa74200887bbda47",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "92a17cf9746a7a37",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Diary/2024-02-26.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "06b85711d3e5624d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Diary/2024-02-26.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c51eb0ac97bde53c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "11863f44c7657903",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Diary/2024-02-26.md"
+              }
+            }
+          },
+          {
+            "id": "b6b2a77db2a77b64",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "2153b0bdad0af8af",
+  "lastOpenFiles": [
+    "Competition/Readme.md",
+    "Competition/Test.canvas",
+    "README.md",
+    "Diary/2024-02-26.md",
+    "2024-02-26.md",
+    "Diary",
+    "未命名.canvas",
+    "Competition"
+  ]
+}
