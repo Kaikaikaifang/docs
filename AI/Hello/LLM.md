@@ -1,3 +1,4 @@
+> [GPT 现状](https://waytoagi.feishu.cn/wiki/IXjfwF9l9iX0IzkUg1Ec0Vcinx3)
 ## 关键词
 GPT-3
 - **词汇量大小**：50,257
