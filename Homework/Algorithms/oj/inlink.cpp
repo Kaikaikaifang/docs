@@ -4,7 +4,7 @@
  * @dir            : ~/projects/docs/Homework/Algorithms/oj
  * @date           : 2024/03/09
  * @author         : Kaikai
- * @brief          : 单向链表（递增排列）插入元素
+ * @brief          : 单向链表（递增排列）插入元素 翻转链表
  * */
 #include <iostream>
 using namespace std;
