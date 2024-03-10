@@ -11,7 +11,7 @@
 	+ log.register
 		> 初始化日志记录模块
 3. uvicorn.run(app, ...)
-	> 
+	> 启动 uvicorn 服务器来运行 app 应用 (fastapi)
 	
-	
-	
+# init
+
