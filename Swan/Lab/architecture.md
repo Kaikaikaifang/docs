@@ -16,6 +16,7 @@
 	
 # init
 > 初始化 swanlab 运行时实例
-1. init_env
-2. connect(autocreate=True)
+1. 创建 logdir: swanlog 用于
+2. init_env
+3. connect(autocreate=True)
 	> 连接数据库
