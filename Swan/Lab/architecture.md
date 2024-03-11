@@ -2,7 +2,7 @@
 1. cli: swanlab watch
 2. sdk: swanlab.init
 # watch
-> 
+> 启动应用进程
 1. import swanlog
 	> 导入日志记录模块
 2. import app
@@ -15,4 +15,6 @@
 	> 启动 uvicorn 服务器来运行 app 应用 (fastapi)
 	
 # init
-
+> 初始化 swanlab 运行时实例
+1. init_env
+2. 
