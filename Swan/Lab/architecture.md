@@ -31,6 +31,8 @@
 		+ .create_tables(tables)
 		> peewee 的此方法通过 CREATE TABLE IF NOT EXISTS 语句实现，仅在表不存在时创建表
 		+ .close
-	1. 数据表的兼容操作（新增字段）
-		> 借助 [playhouse]()
+	1. 数据表的旧兼容操作（新增字段）
+		> 借助 playhouse(peewee extension) 实现数据表字段的增加
+4. 
+	
 	
