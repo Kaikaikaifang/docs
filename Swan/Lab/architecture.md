@@ -23,3 +23,4 @@
 2. init_env
 3. connect(autocreate=True)
 	> 连接数据库
+	+ runs.swanlab 不存在，创建 
