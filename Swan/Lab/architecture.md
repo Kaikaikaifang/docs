@@ -26,5 +26,9 @@
 	> 若 runs.swanlab 不存在，创建 Sqlite database
 	各方法具体细节：
 	+ .connect
-		若 runs.swanlab 不存在，创建 runs.swanlab 空文件
+		> 若 runs.swanlab 不存在，创建 runs.swanlab 空文件
 	+ .bind(table)
+	+ .create_tables(tables)
+		> peewee 的此方法通过 CREATE TABLE IF NOT EXISTS 语句实现，仅在表不存在时创建表
+	+ .close	
+	
