@@ -24,7 +24,7 @@
 3. connect(autocreate=True)
 	1. 初始化数据库实例
 		> 若 runs.swanlab 不存在，创建 Sqlite database
-		> 使用 peewee， 各方法具体细节：
+		> 使用 [peewee](https://docs.peewee-orm.com/en/latest/) 来操作表，各方法具体细节：
 		+ .connect
 		> 若 runs.swanlab 不存在，创建 runs.swanlab 空文件
 		+ .bind(table)
@@ -32,5 +32,5 @@
 		> peewee 的此方法通过 CREATE TABLE IF NOT EXISTS 语句实现，仅在表不存在时创建表
 		+ .close
 	1. 数据表的兼容操作（新增字段）
-		
+		> 借助 [playhouse]()
 	
