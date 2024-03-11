@@ -24,6 +24,7 @@
 3. connect(autocreate=True)
 	> 连接数据库
 	> 若 runs.swanlab 不存在，创建 Sqlite database
+	> 数据表的兼容操作
 	各方法具体细节：
 	+ .connect
 		> 若 runs.swanlab 不存在，创建 runs.swanlab 空文件
