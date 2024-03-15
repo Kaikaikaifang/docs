@@ -3,6 +3,8 @@
 1. pypi swanlab: Python
 2. fontend: Vue
 3. backend: 
+	1. go + [clickhouse](https://clickhouse.com/) (实验数据)
+	2. js + [prisma](https://www.prisma.io/) + [postgreSQL](https://www.postgresql.org/)
 
 # 入口函数
 对于架构的分析从两个入口函数展开
