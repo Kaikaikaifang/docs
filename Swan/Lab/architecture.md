@@ -1,3 +1,10 @@
+# 技术选型
+## 公有云版
+1. pypi swanlab: Python
+2. fontend: Vue
+3. backend: 
+
+# 入口函数
 对于架构的分析从两个入口函数展开
 1. cli: swanlab watch
 2. sdk: swanlab.init
