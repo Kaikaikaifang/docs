@@ -7,7 +7,9 @@
 	2. js + [prisma](https://www.prisma.io/) + [postgreSQL](https://www.postgresql.org/)
 	3. clickhouse & postgres integration 集成
 		+ [docker-compose](https://github.com/ClickHouse/examples/blob/main/docker-compose-recipes/recipes/ch-and-postgres/docker-compose.yaml)
-		+ 
+		+ Blog
+			+ https://clickhouse.com/blog/migrating-data-between-clickhouse-postgres
+			+ https://clickhouse.com/blog/migrating-data-between-clickhouse-postgres-part-2
 
 # 入口函数
 对于架构的分析从两个入口函数展开
