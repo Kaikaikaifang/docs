@@ -11,7 +11,6 @@
 	+ [migrating data between clickhouse postgres](https://clickhouse.com/blog/migrating-data-between-clickhouse-postgres)
 	+ [migrating-data-between-clickhouse-postgres-part-2](https://clickhouse.com/blog/migrating-data-between-clickhouse-postgres-part-2)
 	![[clickhouse&postgres.png]]
-	
 # 入口函数
 对于架构的分析从两个入口函数展开
 1. cli: swanlab watch
