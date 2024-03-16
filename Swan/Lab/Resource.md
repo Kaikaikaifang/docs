@@ -1,7 +1,9 @@
 > Notice: 172.16.39.68 位于 GeekTech 局域网下，访问以下资源时需连接 GeekTech WiFI ⚠
 # Dell 开发机
 
-| IP       | 172.16.39.79   |     |
+JCHY 192.168.31.242
+
+| IP       | 172.16.39.86   |     |
 | -------- | -------------- | --- |
 | User     | kakai          |     |
 | Password | 1030jkf@kaikai |     |
