@@ -12,7 +12,7 @@ services:
     environment:
       CLICKHOUSE_DB: swanlab_dev
       CLICKHOUSE_USER: swan
-      CLICKHOUSE_PASSWORD: 1030jkf@kaikai
+      CLICKHOUSE_PASSWORD: 1030jkf
       CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: 1
     ports:
       - "8123:8123"
