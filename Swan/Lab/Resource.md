@@ -1,3 +1,6 @@
+# Raspi
+JCHY_5G 192.168.31.208
+Geektech 172.16.38.217
 > Notice: 172.16.39.68 位于 GeekTech 局域网下，访问以下资源时需连接 GeekTech WiFI ⚠
 # Dell 开发机
 
