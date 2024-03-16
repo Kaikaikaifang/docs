@@ -1,4 +1,4 @@
-> Notice: 172.16... 系列资源
+> Notice: 172.16.39.68 位于 GeekTech 局域网下，访问以下资源时需连接 GeekTech WiFI ⚠
 # Dell 开发机
 
 | IP       | 172.16.39.68   |     |
