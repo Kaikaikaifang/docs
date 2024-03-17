@@ -10,9 +10,10 @@ services:
       - ./fs/volumes/clickhouse/etc/clickhouse-server/users.d/users.xml:/etc/clickhouse-server/users.d/users.xml
       - ./fs/volumes/clickhouse/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
     environment:
+      TZ: Asia/Shanghai
       CLICKHOUSE_DB: swanlab_dev
       CLICKHOUSE_USER: swan
-      CLICKHOUSE_PASSWORD: 1030jkf
+      CLICKHOUSE_PASSWORD: 1030jkf@kaikai
       CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: 1
     ports:
       - "8123:8123"
@@ -25,9 +26,11 @@ services:
     image: postgres
     restart: always
     environment:
+      TZ: Asia/Shanghai
       POSTGRES_USER: swan
       POSTGRES_PASSWORD: 1030jkf@kaikai
       POSTGRES_DB: swanlab_dev
+      POSTGRES_EXTENSIONS: uuid-ossp
     ports:
       - "5432:5432"
     volumes:
