@@ -1,19 +1,15 @@
 # Raspi
-JCHY_5G 192.168.31.208
-Geektech 172.16.38.217
-> Notice: 172.16.39.68 位于 GeekTech 局域网下，访问以下资源时需连接 GeekTech WiFI ⚠
+> Notice: 172.16.39.68 位于 GeekTech 局域网下，192.168.31.242 位于 JCHY/JCHY_5G 下，访问以下资源时需连接 JCHY WiFI ⚠（目前开发机连接的是 JCHY）
 # Dell 开发机
 
-JCHY 192.168.31.242
-
-| IP       | 172.16.39.86   |     |
+| IP       | 192.168.31.242 |     |
 | -------- | -------------- | --- |
 | User     | kakai          |     |
 | Password | 1030jkf@kaikai |     |
 > Notice: it's kakai, not kaikai! 🃏
 # Clickhouse
 
-| Server   | 172.16.39.79         |
+| Server   | 192.168.31.242       |
 | -------- | -------------------- |
 | Port     | 8123(http) 9000(tcp) |
 | Database | swanlab_dev          |
