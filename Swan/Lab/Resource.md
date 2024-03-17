@@ -1,4 +1,4 @@
-# Raspi
+
 > Notice: 172.16.39.68 位于 GeekTech 局域网下，192.168.31.242 位于 JCHY/JCHY_5G 下，访问以下资源时需连接 JCHY WiFI ⚠（目前开发机连接的是 JCHY）
 # Dell 开发机
 
