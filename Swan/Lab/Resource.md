@@ -35,7 +35,7 @@ func main() {
 ```
 # Postgres
 
-| Server   | 172.16.39.79   |
+| Server   | 192.168.31.242 |
 | -------- | -------------- |
 | Port     | 5432           |
 | Database | swanlab_dev    |
