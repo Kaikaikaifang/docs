@@ -30,7 +30,7 @@ import (
 )
 
 func main() {
-    click_dsn := "clickhouse://swan:1030jkf@localhost:9000/swanlab_dev?dial_timeout=10s&read_timeout=20s"
+    click_dsn := "clickhouse://swan:1030jkf@kaikai@localhost:9000/swanlab_dev?dial_timeout=10s&read_timeout=20s"
     _, err2 := gorm.Open(clickhouse.Open(click_dsn), &gorm.Config{})
     if err2 != nil {
         panic("failed to connect clickhouse")
