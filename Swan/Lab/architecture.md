@@ -3,8 +3,8 @@
 1. pypi swanlab: Python
 2. fontend: Vue
 3. backend: 
-	1. go + [clickhouse](https://clickhouse.com/) (实验数据)
-	2. js + [prisma](https://www.prisma.io/) + [postgreSQL](https://www.postgresql.org/)
+	1. go + [gin](https://go.dev/doc/tutorial/web-service-gin) + [clickhouse](https://clickhouse.com/) (实验数据)
+	2. js + koa + [prisma](https://www.prisma.io/) + [postgreSQL](https://www.postgresql.org/)
 	3. clickhouse & postgres integration 集成
 		+ [docker-compose](https://github.com/ClickHouse/examples/blob/main/docker-compose-recipes/recipes/ch-and-postgres/docker-compose.yaml)
 	ClickHouse & Postgres
