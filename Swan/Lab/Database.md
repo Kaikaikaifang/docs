@@ -12,6 +12,13 @@
 
 > 已知全部字段时采用 💐
 
+### Dynamical Json 
+
+1. 插入 Json Object
+2. Clickhouse 动态添加适当类型的新列
+
+> This schema should only be used if you have good control over the log schema and the number of total fields is less than 1,000.
+
 ### 
 # PostgreSQL 
 >  the world’s most [popular OSS OLTP (Online transaction processing) database](https://db-engines.com/en/ranking)
