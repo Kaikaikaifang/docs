@@ -44,9 +44,10 @@
 
 ## ABR
 
-> [ABR]
+> [Cloudflare's ABR Analytics](https://blog.cloudflare.com/explaining-cloudflares-abr-analytics/)
 
 1. ⚠ 数据写入时进行采样，将数据写入具有不同采样间隔的多个表中，分别存储不同采样率的数据
+2. 查询时选择最佳的采样率
 
 # PostgreSQL 
 >  the world’s most [popular OSS OLTP (Online transaction processing) database](https://db-engines.com/en/ranking)
