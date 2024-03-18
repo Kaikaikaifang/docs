@@ -55,6 +55,20 @@
 1. [vector](https://github.com/vectordotdev/vector)
 2. [demo](https://github.com/cloudflare/cloudflare-blog/tree/master/2022-08-log-analytics)
 
+## Swanlab
+
+对于 Swanlab 而言，需要存储的数据有两大类：
++ 实验数据
++ 日志信息
+
+### 实验数据
+
+[Table Engine: ](https://clickhouse.com/docs/en/engines/table-engines/mergetree-family/aggregatingmergetree)
+
+### 日志信息
+
+
+
 # PostgreSQL 
 >  the world’s most [popular OSS OLTP (Online transaction processing) database](https://db-engines.com/en/ranking)
 
