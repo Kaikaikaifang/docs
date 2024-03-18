@@ -28,6 +28,14 @@
 
 > We recommend adopting this schema since it provides safeguards against applications logging too many fields.
 
+## 分区
+> Since our logging pipeline generates TBs of data daily, we created the table partitioned with `toStartOfHour(dateTime).`
+
+## 主键
+
+1. 
+
+
 # PostgreSQL 
 >  the world’s most [popular OSS OLTP (Online transaction processing) database](https://db-engines.com/en/ranking)
 
