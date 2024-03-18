@@ -33,7 +33,14 @@
 
 ## 主键
 
-1. 
+1. once a table is created the primary key can not be updated
+2. 各行的主键并不唯一，不同行间的主键可以相同
+
+## Data skipping indexes
+
+1. 目的是提高数据查询速度
+	> ClickHouse query performance is directly proportional to whether it can use the primary key when evaluating the WHERE clause.
+2. uses bloom filters and skip reading significant chunks of data that are guaranteed to have no match
 
 
 # PostgreSQL 
