@@ -63,12 +63,25 @@
 
 ### 实验数据
 
-[Table Engine: ](https://clickhouse.com/docs/en/engines/table-engines/mergetree-family/aggregatingmergetree)
+[Table Engine: MergeTree](https://clickhouse.com/docs/en/engines/table-engines/mergetree-family/aggregatingmergetree)
 
+```
+```
 ### 日志信息
 
+[Table Engine: Log](https://clickhouse.com/docs/en/engines/table-engines/log-family/log)
 
+```bash
+SwanLab INFO [2024-03-10 17:53:40,148] Run `swanlab watch` to view SwanLab Experiment Dashboard
 
+SwanLab DEBUG [2024-03-10 17:53:40,149] Check experiment and status...
+
+SwanLab DEBUG [2024-03-10 17:53:40,165] Namespace t created, id: 1
+
+SwanLab DEBUG [2024-03-10 17:53:40,226] Add data, tag: t/accuracy, step: 0, data: 0.4230025085716426
+
+SwanLab DEBUG [2024-03-10 17:53:40,242] Namespace default created, id: 3
+```
 # PostgreSQL 
 >  the world’s most [popular OSS OLTP (Online transaction processing) database](https://db-engines.com/en/ranking)
 
