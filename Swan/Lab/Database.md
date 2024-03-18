@@ -23,8 +23,11 @@
 
 1. 相同类型字段存储在相同数组
 2. Clickhouse 通过数组函数查询
-3. the materialized column feature
-	
+3. ***the materialized column feature***
+	> 能够从数组中取出元素作为列
+
+> We recommend adopting this schema since it provides safeguards against applications logging too many fields.
+
 # PostgreSQL 
 >  the world’s most [popular OSS OLTP (Online transaction processing) database](https://db-engines.com/en/ranking)
 
