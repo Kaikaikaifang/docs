@@ -1,7 +1,8 @@
 # Clickhouse
 > ClickHouse is an open-source column-oriented OLAP (Online analytical processing) database for real-time analytical workloads.
 
-[Cloudflare logs management](https://blog.cloudflare.com/log-analytics-using-clickhouse/?glxid=679e7a89-33a1-41fb-a525-5d7a3e84137a&experiments=mktg-website-nav-cta-button1%3A1)
+## [Cloudflare logs management](https://blog.cloudflare.com/log-analytics-using-clickhouse/?glxid=679e7a89-33a1-41fb-a525-5d7a3e84137a&experiments=mktg-website-nav-cta-button1%3A1)
+
 > We decided to keep default LZ4 compression for all columns. We used special encodings like Double-Delta for the DateTime columns, Gorilla for Float columns and LowCardinality for fixed-size String columns.
 ![[pipeline.png]]
 ## 日志存储模式
@@ -48,6 +49,11 @@
 
 1. ⚠ 数据写入时进行采样，将数据写入具有不同采样间隔的多个表中，分别存储不同采样率的数据
 2. 查询时选择最佳的采样率
+
+## Resources
+
+1. [vector](https://github.com/vectordotdev/vector)
+2. [demo](https://github.com/cloudflare/cloudflare-blog/tree/master/2022-08-log-analytics)
 
 # PostgreSQL 
 >  the world’s most [popular OSS OLTP (Online transaction processing) database](https://db-engines.com/en/ranking)
