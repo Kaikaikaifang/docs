@@ -65,12 +65,31 @@
 
 [Table Engine: MergeTree](https://clickhouse.com/docs/en/engines/table-engines/mergetree-family/aggregatingmergetree)
 
-```
+Require
+1. 实验唯一 id
+2. 参数名称
+3. 参数类型
+
+Example
+```json
+{
+  "create_time": "2024-03-10T09:53:40.227712",
+  "update_time": "2024-03-10T09:53:40.227712",
+  "data": [
+    { "index": 0, "data": 0.8470532701230307, "create_time": "2024-03-10T09:53:40.294442" },
+    { "index": 1, "data": 0.45640646589227024, "create_time": "2024-03-10T09:53:40.853691" },
+	{ "index": 47, "data": 0.1813315122682567, "create_time": "2024-03-10T09:54:04.612036" }
+  ]
+}
 ```
 ### 日志信息
 
 [Table Engine: Log](https://clickhouse.com/docs/en/engines/table-engines/log-family/log)
 
+Requirement
+1. 实验名称
+
+Example
 ```bash
 SwanLab INFO [2024-03-10 17:53:40,148] Run `swanlab watch` to view SwanLab Experiment Dashboard
 
