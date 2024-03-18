@@ -42,6 +42,11 @@
 	> ClickHouse query performance is directly proportional to whether it can use the primary key when evaluating the WHERE clause.
 2. uses bloom filters and skip reading significant chunks of data that are guaranteed to have no match
 
+## ABR
+
+> [ABR]
+
+1. ⚠ 数据写入时进行采样，将数据写入具有不同采样间隔的多个表中，分别存储不同采样率的数据
 
 # PostgreSQL 
 >  the world’s most [popular OSS OLTP (Online transaction processing) database](https://db-engines.com/en/ranking)
