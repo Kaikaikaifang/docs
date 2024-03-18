@@ -19,7 +19,12 @@
 
 > This schema should only be used if you have good control over the log schema and the number of total fields is less than 1,000.
 
-### 
+### Same Data Type in One Array
+
+1. 相同类型字段存储在相同数组
+2. Clickhouse 通过数组函数查询
+3. the materialized column feature
+	
 # PostgreSQL 
 >  the world’s most [popular OSS OLTP (Online transaction processing) database](https://db-engines.com/en/ranking)
 
