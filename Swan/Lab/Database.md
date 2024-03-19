@@ -63,7 +63,7 @@
 
 ### 实验数据
 
-[Table Engine: MergeTree](https://clickhouse.com/docs/en/engines/table-engines/mergetree-family/aggregatingmergetree)
+[Table Engine: AggregatingMergeTree](https://clickhouse.com/docs/en/engines/table-engines/mergetree-family/aggregatingmergetree)
 
 Require
 1. 实验唯一 id
@@ -85,11 +85,11 @@ Example
 
 Experiments Float Data Table
 
-| ID     | Data  | Index | CreateAt |
-| ------ | ----- | ----- | -------- |
-| string | float | int   | Datetime |
-| 主键     | 数据    | 次序    |          |
-
+| ID     | Data  | Index | CreateAt | UpdateAt | DeleteAt |
+| ------ | ----- | ----- | -------- | -------- | -------- |
+| string | float | int   | Datetime | Datetime | Datetime |
+| 主键     | 数据    | 次序    | 创建时间     | 更新时间     | 删除时间     |
+> 由于单一实验拥有多条数据，对应到数据库中即拥有duo
 
 ### 日志信息
 
