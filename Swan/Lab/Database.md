@@ -85,9 +85,11 @@ Example
 
 Experiments Float Data Table
 
-| ID - 主键 | Data |
-| ------- | ---- |
-| 实验唯一 id |      |
+| ID     | Data  | Index | CreateAt |
+| ------ | ----- | ----- | -------- |
+| string | float | int   | Datetime |
+| 主键     | 数据    | 次序    |          |
+
 
 ### 日志信息
 
