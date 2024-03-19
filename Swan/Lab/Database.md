@@ -82,6 +82,13 @@ Example
   ]
 }
 ```
+
+Experiments Float Data Table
+
+| ID - 主键 | Data |
+| ------- | ---- |
+| 实验唯一 id |      |
+
 ### 日志信息
 
 [Table Engine: Log](https://clickhouse.com/docs/en/engines/table-engines/log-family/log)
