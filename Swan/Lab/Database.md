@@ -120,3 +120,9 @@ SwanLab DEBUG [2024-03-10 17:53:40,242] Namespace default created, id: 3
 + [SQLTools PostgreSQL/Cockroach Driver](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-pg)
 
 # Gorm
+
+# Redis
+
+### Blogs
++ [数据结构](https://medium.com/analytics-vidhya/the-most-important-redis-data-structures-you-must-understand-2e95b5cf2bce)
++ [All You Need](https://medium.com/codex/7-redis-features-you-might-not-know-bab8c9beb2c)
