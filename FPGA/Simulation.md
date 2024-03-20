@@ -15,4 +15,3 @@ gtkwave freq_div.vcd
 ```
 + WaveTrace @vscode
 
-
