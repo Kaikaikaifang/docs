@@ -9,3 +9,8 @@ iverilog -o simulation/iverilog/freq_div.vvp -y ./src testbench/freq_div_tb.v
 vvp simulation/iverilog/freq_div.vvp -vcd
 ```
 3. 查看波形
++ Gtkwave
+```bash
+gtkwave freq_div.vcd
+```
++ WaveTrace @vscode
