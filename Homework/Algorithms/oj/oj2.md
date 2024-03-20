@@ -83,7 +83,7 @@ int main() {
     return 0;
 }
 ```
-![[double_stack.png]]
+![[./images/double_stack.png]]
 2. 循环队列结构体定义
 	> 借助数组实现
 	+ 属性
@@ -167,7 +167,7 @@ int main() {
     return 0;
 }
 ```
-![[circular_queue.png]]
+![[./images/circular_queue.png]]
 1. 队列结构体定义
 	> 由带头节点的循环链表实现
 	+ 属性
@@ -254,4 +254,4 @@ int main() {
 }
 ```
 
-![[linked_queue.png]]
+![[./images/linked_queue.png]]
