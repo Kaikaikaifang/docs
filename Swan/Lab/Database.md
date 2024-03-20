@@ -126,3 +126,10 @@ SwanLab DEBUG [2024-03-10 17:53:40,242] Namespace default created, id: 3
 ### Blogs
 + [数据结构](https://medium.com/analytics-vidhya/the-most-important-redis-data-structures-you-must-understand-2e95b5cf2bce)
 + [All You Need](https://medium.com/codex/7-redis-features-you-might-not-know-bab8c9beb2c)
+
+## 数据结构
+![[data_structure.webp]]
+1. Strings
+2. Lists
+3. Sets
+4. Hash
