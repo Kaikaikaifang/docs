@@ -42,7 +42,7 @@ public:
         Node* front = rear->next->next;
         int value = front->data;
         rear->next->next = front->next;
-        if (front == rear) {
+        if (front == rear) {  // 如果队列只有一个元素
             rear = rear->next;
         }
         delete front;
