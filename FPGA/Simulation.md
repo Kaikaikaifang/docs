@@ -14,3 +14,5 @@ vvp simulation/iverilog/freq_div.vvp -vcd
 gtkwave freq_div.vcd
 ```
 + WaveTrace @vscode
+
+
