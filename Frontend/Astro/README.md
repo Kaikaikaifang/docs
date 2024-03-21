@@ -4,8 +4,8 @@
 2. Integration: `pnpm astro add tailwind`
 3. CI/CD with Github
 	* create a github repo
-	* config native project
-	```bash
+	* configure native project
+```bash
 echo "# blog" >> README.md
 git init
 git add README.md
