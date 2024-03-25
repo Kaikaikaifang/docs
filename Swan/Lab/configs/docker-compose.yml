@@ -39,3 +39,14 @@ services:
       - "postgres"
       - "-c"
       - "wal_level=logical" #required for MaterializedPostgreSQL
+  redis:
+    image: redis
+    container_name: redis
+    command: redis-server /usr/local/etc/redis/redis.conf
+    restart: always
+    volumes:
+      - ./fs/volumes/redis/data:/data
+      - ./fs/volumes/redis/redis.conf:/usr/local/etc/redis/redis.conf
+      - ./fs/volumes/redis/logs:/logs
+    ports:
+      - "6379:6379"
