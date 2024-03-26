@@ -11,4 +11,4 @@ def lcm(a, b):
 if __name__ == "__main__":
     num1 = 18
     num2 = 15
-    print(f"{num1} 和 {num2} 的最小公倍数是 {lcm(num1, num2)}")
+    print(f"{num1} 和 {num2} 的最大公约数是 {gcd(num1, num2)}, 最小公倍数是 {lcm(num1, num2)}")
