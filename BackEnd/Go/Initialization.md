@@ -19,3 +19,8 @@ go mod edit  # 手动修改依赖文件
 go mod graph  # 打印依赖图
 go mod verify  # 校验依赖
 ```
+
+## 初始化项目
+
+1. `go mod download`
+## 初始化空白项目
