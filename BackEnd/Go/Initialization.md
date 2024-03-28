@@ -22,5 +22,9 @@ go mod verify  # 校验依赖
 
 ## 初始化项目
 
-1. `go mod download`
+```bash
+go mod download
+
+go run main.go
+```
 ## 初始化空白项目
